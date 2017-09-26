@@ -4,7 +4,7 @@ install:
   - mkdir -p ~/bin
   - curl -L https://github.com/gohugoio/hugo/releases/download/v0.26/hugo_0.26_Linux-64bit.tar.gz -O hugo.tgz
   - tar xfv hugo.tgz -C bin
-  - rm hugo.tgz bin/*.md
+  - rm hugo.tgz ~/bin/*.md
   - export PATH=$HOME/bin:$PATH
 
 script:
